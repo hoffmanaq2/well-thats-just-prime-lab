@@ -1,3 +1,8 @@
-#include <string>
+#include <vector>
+#pragma once
 
-std::string prime();
+class Factorizer {
+public:
+    //methods that will calculate and return prime factors of a number
+    std::vector<int> primeFactors (int n);
+};
